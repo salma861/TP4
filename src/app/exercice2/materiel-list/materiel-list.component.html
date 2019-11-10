@@ -1,0 +1,5 @@
+<div class="container">
+<h1> liste des materiels </h1>
+<ul  class="list-group"  *ngFor ="let m of materiels" > 
+    <app-materiel [nom]="m.nom" [reference]="m.reference" [image]="m.image" [prix]="m.prix" [repare]="m.repare"  ></app-materiel>
+</ul> </div>
